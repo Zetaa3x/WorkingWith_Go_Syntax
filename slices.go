@@ -19,4 +19,9 @@ func main() {
 	// the comparison will return a true or false value
 	log.Println("test, the value of i is", i, "is i equal to 3?", i == 3)
 	log.Printf("Array item = %v", numbers[2])
+
+	//working with string arrays
+	//declares a string array with 3 elements
+	var names = [3]string{"Tedd", "Tom", "Eddy"}
+	//test
 }
